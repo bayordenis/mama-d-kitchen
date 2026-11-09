@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mama D Kitchen | Authentic Ghanaian Food</title>
+  <meta name="description" content="Mama D Kitchen serves authentic Ghanaian home cooking: jollof, waakye, banku and tilapia, fufu and light soup, kenkey, red red and kelewele. Dine in, take away or order on WhatsApp." />
+  <meta name="theme-color" content="#0e3b2c" />
+  <meta property="og:title" content="Mama D Kitchen" />
+  <meta property="og:description" content="Authentic Ghanaian home cooking. Akwaaba!" />
+  <meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/Jollof_rice_with_dodo.jpg?width=1200" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230e3b2c'/><text x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial Black,Arial' font-weight='900' font-size='30' fill='%23f2b705'>MD</text></svg>" />
+
+  <!-- Free plugins: Google Fonts, AOS (scroll animations), GLightbox (photo lightbox) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Figtree:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="top">
+    <div class="kente-strip" aria-hidden="true"></div>
+    <nav class="nav wrap" aria-label="Main">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true">MD</span>
+        <span class="brand-name">Mama D <em>Kitchen</em></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#reserve" class="nav-cta">Book a Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy" data-aos="fade-up">
+          <p class="eyebrow">Akwaaba · Welcome to the table</p>
+          <h1>Ghanaian food,<br /><span>cooked like Mama's.</span></h1>
+          <p class="hero-lead">
+            Smoky party jollof, waakye wrapped the proper way, banku with fresh grilled tilapia
+            and fufu pounded to order. Home cooking from every corner of Ghana, served with
+            plenty of shito and a warm welcome.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-gold">See the Menu</a>
+            <!-- TODO: replace 233000000000 with the restaurant's WhatsApp number (country code, no + or spaces) -->
+            <a href="https://wa.me/233000000000?text=Hello%20Mama%20D%20Kitchen%2C%20I%27d%20like%20to%20place%20an%20order" class="btn btn-ghost" target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+          <ul class="hero-facts">
+            <li><strong>Dine in</strong><span>Mon–Sun</span></li>
+            <li><strong>Take away</strong><span>Packed hot</span></li>
+            <li><strong>Delivery</strong><span>Within Accra</span></li>
+          </ul>
+        </div>
+
+        <figure class="hero-photo" data-aos="zoom-in" data-aos-delay="150">
+          <div class="photo" data-label="Jollof rice &amp; dodo">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jollof_rice_with_dodo.jpg?width=1100"
+                 alt="A plate of Ghanaian jollof rice served with fried ripe plantain (dodo)" fetchpriority="high" onerror="this.remove()" />
+          </div>
+          <figcaption class="hero-badge"><span>Chef's favourite</span>Jollof &amp; dodo</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= MENU ================= -->
+    <section class="section menu" id="menu">
+      <div class="wrap">
+        <header class="section-head" data-aos="fade-up">
+          <p class="eyebrow">Today's pot</p>
+          <h2>The Menu</h2>
+          <p>Every plate is cooked fresh each morning. Tell us how much pepper you can take.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filter the menu">
+          <button class="chip is-active" data-filter="all" aria-pressed="true">All dishes</button>
+          <button class="chip" data-filter="rice" aria-pressed="false">Rice</button>
+          <button class="chip" data-filter="swallow" aria-pressed="false">Swallows &amp; soups</button>
+          <button class="chip" data-filter="beans" aria-pressed="false">Beans &amp; plantain</button>
+          <button class="chip" data-filter="small" aria-pressed="false">Small chops</button>
+        </div>
+
+        <!-- TODO: prices are examples — set your real prices -->
+        <div class="dish-grid">
+
+          <article class="dish" data-cat="rice" data-aos="fade-up">
+            <div class="photo" data-label="Jollof rice">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ghanaian_Jollof_Rice.jpg?width=800" alt="Ghanaian jollof rice" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Jollof Rice &amp; Grilled Chicken</h3><span class="price">GH₵ 85</span></div>
+              <p>Long-grain rice slow-cooked in a smoky tomato and pepper base, with grilled chicken and fresh salad.</p>
+              <p class="pepper" aria-label="Pepper level 2 of 3">Pepper <span class="dots"><i class="on"></i><i class="on"></i><i></i></span></p>
+            </div>
+          </article>
+
+          <article class="dish" data-cat="rice" data-aos="fade-up">
+            <div class="photo" data-label="Waakye">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Waakye_in_Accra%2C_Ghana.jpg?width=800" alt="Waakye, rice and beans cooked with sorghum leaves, served in Accra" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Waakye Special</h3><span class="price">GH₵ 60</span></div>
+              <p>Rice and beans cooked with sorghum leaves, with gari, spaghetti, boiled egg, fried fish, stew and shito.</p>
+              <p class="pepper" aria-label="Pepper level 2 of 3">Pepper <span class="dots"><i class="on"></i><i class="on"></i><i></i></span></p>
+            </div>
+          </article>
+
+          <article class="dish" data-cat="swallow" data-aos="fade-up">
+            <div class="photo" data-label="Banku &amp; tilapia">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Banku_with_grilled_tilapia_and_pepper.jpg?width=800" alt="Banku with grilled tilapia and ground pepper" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Banku &amp; Grilled Tilapia</h3><span class="price">GH₵ 120</span></div>
+              <p>Fermented corn and cassava dough with a whole charcoal-grilled tilapia and fresh-ground pepper.</p>
+              <p class="pepper" aria-label="Pepper level 3 of 3">Pepper <span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i></span></p>
+            </div>
+          </article>
+
+          <article class="dish" data-cat="swallow" data-aos="fade-up">
+            <div class="photo" data-label="Fufu &amp; light soup">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fufu_and_Light_soup_with_goat_meat.jpg?width=800" alt="Fufu in light soup with goat meat" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Fufu &amp; Light Soup with Goat</h3><span class="price">GH₵ 110</span></div>
+              <p>Freshly pounded cassava and plantain in a light tomato and pepper soup with tender goat meat.</p>
+              <p class="pepper" aria-label="Pepper level 2 of 3">Pepper <span class="dots"><i class="on"></i><i class="on"></i><i></i></span></p>
+            </div>
+          </article>
+
+          <article class="dish" data-cat="swallow" data-aos="fade-up">
+            <div class="photo" data-label="Fante kenkey">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fante_Kenkey_with_Sardine_and_Shito.jpg?width=800" alt="Fante kenkey with sardines and shito" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Fante Kenkey, Fish &amp; Shito</h3><span class="price">GH₵ 55</span></div>
+              <p>Fermented corn dough wrapped in plantain leaves, with fried fish, black pepper sauce and fresh pepper.</p>
+              <p class="pepper" aria-label="Pepper level 3 of 3">Pepper <span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i></span></p>
+            </div>
+          </article>
+
+          <article class="dish" data-cat="swallow" data-aos="fade-up">
+            <div class="photo" data-label="Tuo zaafi">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tuo_Zaafi_and_ayoyo_soup.jpg?width=800" alt="Tuo zaafi with green ayoyo soup" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Tuo Zaafi &amp; Ayoyo Soup</h3><span class="price">GH₵ 70</span></div>
+              <p>A Northern classic: soft maize "TZ" served with green ayoyo leaf soup and stewed meat.</p>
+              <p class="pepper" aria-label="Pepper level 1 of 3">Pepper <span class="dots"><i class="on"></i><i></i><i></i></span></p>
+            </div>
+          </article>
+
+          <article class="dish" data-cat="beans" data-aos="fade-up">
+            <div class="photo" data-label="Red red">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ghanaian_Red-Red_with_Fish.jpg?width=800" alt="Red red, black-eyed bean stew in palm oil, with fish" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Red Red with Fish</h3><span class="price">GH₵ 65</span></div>
+              <p>Black-eyed beans stewed in red palm oil, with fried ripe plantain, fried fish and gari on top.</p>
+              <p class="pepper" aria-label="Pepper level 1 of 3">Pepper <span class="dots"><i class="on"></i><i></i><i></i></span></p>
+            </div>
+          </article>
+
+          <article class="dish" data-cat="small" data-aos="fade-up">
+            <div class="photo" data-label="Kelewele">
+              <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kelewele%2C_a_Ghanaian_snack.jpg?width=800" alt="Kelewele, spiced fried plantain cubes" loading="lazy" onerror="this.remove()" />
+            </div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Kelewele &amp; Groundnuts</h3><span class="price">GH₵ 30</span></div>
+              <p>Ripe plantain cubes spiced with ginger, pepper and cloves, fried crisp and served with roasted groundnuts.</p>
+              <p class="pepper" aria-label="Pepper level 2 of 3">Pepper <span class="dots"><i class="on"></i><i class="on"></i><i></i></span></p>
+            </div>
+          </article>
+        </div>
+
+        <p class="menu-note">Sides: extra shito GH₵ 5 · fried egg GH₵ 5 · avocado (in season) GH₵ 10 · Sobolo or asaana GH₵ 15</p>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section gallery" id="gallery">
+      <div class="wrap">
+        <header class="section-head light" data-aos="fade-up">
+          <p class="eyebrow">From our kitchen</p>
+          <h2>Gallery</h2>
+          <p>Tap a photo to see it full size.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Jollof_rice_and_Dodo.jpg?width=1600" class="g-item g-big glightbox" data-gallery="mamad" data-title="Jollof rice &amp; dodo" data-aos="fade-up">
+            <div class="photo" data-label="Jollof &amp; dodo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jollof_rice_and_Dodo.jpg?width=900" alt="Jollof rice with fried plantain" loading="lazy" onerror="this.remove()" /></div>
+            <span class="g-cap">Jollof &amp; dodo</span>
+          </a>
+          <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Banku_and_Grilled_Tilapia.jpg?width=1600" class="g-item g-tall glightbox" data-gallery="mamad" data-title="Banku &amp; grilled tilapia" data-aos="fade-up">
+            <div class="photo" data-label="Banku &amp; tilapia"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Banku_and_Grilled_Tilapia.jpg?width=900" alt="Banku with grilled tilapia" loading="lazy" onerror="this.remove()" /></div>
+            <span class="g-cap">Banku &amp; tilapia</span>
+          </a>
+          <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Kelewele_with_roasted_Groundnuts_A_Ghanaian_Delicacy.jpg?width=1600" class="g-item glightbox" data-gallery="mamad" data-title="Kelewele with roasted groundnuts" data-aos="fade-up">
+            <div class="photo" data-label="Kelewele"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kelewele_with_roasted_Groundnuts_A_Ghanaian_Delicacy.jpg?width=700" alt="Kelewele with roasted groundnuts" loading="lazy" onerror="this.remove()" /></div>
+            <span class="g-cap">Kelewele</span>
+          </a>
+          <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Fufu_with_tilapia%2C_meat_and_light_soup.jpg?width=1600" class="g-item glightbox" data-gallery="mamad" data-title="Fufu with tilapia, meat and light soup" data-aos="fade-up">
+            <div class="photo" data-label="Fufu"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fufu_with_tilapia%2C_meat_and_light_soup.jpg?width=700" alt="Fufu with tilapia and meat in light soup" loading="lazy" onerror="this.remove()" /></div>
+            <span class="g-cap">Fufu &amp; light soup</span>
+          </a>
+          <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Ga_kenkey_with_shito%2C_sardine%2C_eggs_and_ground_pepper_and_tomatoes.jpg?width=1600" class="g-item g-wide glightbox" data-gallery="mamad" data-title="Ga kenkey with shito, sardine and eggs" data-aos="fade-up">
+            <div class="photo" data-label="Ga kenkey"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ga_kenkey_with_shito%2C_sardine%2C_eggs_and_ground_pepper_and_tomatoes.jpg?width=700" alt="Ga kenkey with shito, sardine, eggs and ground pepper" loading="lazy" onerror="this.remove()" /></div>
+            <span class="g-cap">Ga kenkey</span>
+          </a>
+          <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Waakye_with_spaghetti%2C_gari_and_egg_eaten_in_Ghana.jpg?width=1600" class="g-item g-wide glightbox" data-gallery="mamad" data-title="Waakye with spaghetti, gari and egg" data-aos="fade-up">
+            <div class="photo" data-label="Waakye"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Waakye_with_spaghetti%2C_gari_and_egg_eaten_in_Ghana.jpg?width=900" alt="Waakye with spaghetti, gari and egg" loading="lazy" onerror="this.remove()" /></div>
+            <span class="g-cap">Waakye, full load</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STORY ================= -->
+    <section class="section story" id="story">
+      <div class="wrap story-grid">
+        <div class="story-copy" data-aos="fade-right">
+          <p class="eyebrow">Our story</p>
+          <h2>From Mama's pot to your plate</h2>
+          <!-- TODO: replace with the real story of Mama D -->
+          <p>
+            Mama D Kitchen started with one coal pot and a simple promise: cook the food we grew up on,
+            the same way it was cooked at home. No shortcuts on the stew, no rushing the fufu,
+            and always enough shito to go round.
+          </p>
+          <p>
+            Today we cook dishes from every region of Ghana, from Fante kenkey on the coast to tuo zaafi
+            from the North, using fresh ingredients bought from the market each morning.
+          </p>
+        </div>
+        <ul class="values" data-aos="fade-left">
+          <li><strong>Fresh daily</strong><span>Stews and soups made every morning, never reheated from yesterday.</span></li>
+          <li><strong>Real recipes</strong><span>Family recipes passed down, cooked over charcoal where it matters.</span></li>
+          <li><strong>Your pepper, your way</strong><span>Mild, medium or "I am a true Ghanaian" hot.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= VISIT + RESERVE ================= -->
+    <section class="section visit" id="visit">
+      <div class="wrap visit-grid">
+        <div class="visit-info" data-aos="fade-up">
+          <p class="eyebrow">Come and chop</p>
+          <h2>Visit Us</h2>
+          <!-- TODO: set the real address, phone and hours -->
+          <dl class="info-list">
+            <div><dt>Address</dt><dd>Accra, Ghana</dd></div>
+            <div><dt>Phone / WhatsApp</dt><dd>+233 00 000 0000</dd></div>
+            <div><dt>Mon – Sat</dt><dd>8:00 am – 9:00 pm</dd></div>
+            <div><dt>Sunday</dt><dd>12:00 pm – 8:00 pm</dd></div>
+          </dl>
+          <div class="map">
+            <!-- Free Google Maps embed. TODO: replace "Accra, Ghana" with your exact address -->
+            <iframe title="Map showing Mama D Kitchen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Accra%2C%20Ghana&amp;z=13&amp;output=embed"></iframe>
+          </div>
+        </div>
+
+        <div class="reserve" id="reserve" data-aos="fade-up" data-aos-delay="100">
+          <h2>Book a Table</h2>
+          <p>Send us your booking and we'll confirm on WhatsApp.</p>
+          <!--
+            Free form handling: create a form at https://formspree.io and replace YOUR_FORM_ID.
+            Until then, the booking opens WhatsApp with the details filled in.
+          -->
+          <form id="reserve-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <div class="field">
+              <label for="r-name">Name</label>
+              <input id="r-name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="r-phone">Phone</label>
+              <input id="r-phone" name="phone" type="tel" autocomplete="tel" placeholder="e.g. 024 123 4567" required />
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="r-date">Date</label>
+                <input id="r-date" name="date" type="date" required />
+              </div>
+              <div class="field">
+                <label for="r-time">Time</label>
+                <input id="r-time" name="time" type="time" min="08:00" max="21:00" required />
+              </div>
+              <div class="field">
+                <label for="r-guests">Guests</label>
+                <select id="r-guests" name="guests">
+                  <option>1</option><option selected>2</option><option>3</option><option>4</option>
+                  <option>5</option><option>6</option><option>7–10</option><option>Large group</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="r-note">Anything we should know?</label>
+              <textarea id="r-note" name="note" rows="3" placeholder="Birthday, allergies, pepper level…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold btn-block">Request Booking</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="kente-strip" aria-hidden="true"></div>
+    <div class="wrap footer-grid">
+      <div>
+        <p class="brand-name footer-brand">Mama D <em>Kitchen</em></p>
+        <p>Authentic Ghanaian home cooking. Akwaaba!</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reserve">Book a Table</a></li>
+        <!-- TODO: add real social links -->
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+      </ul>
+    </div>
+    <div class="wrap credits">
+      <p>&copy; <span id="year">2026</span> Mama D Kitchen.</p>
+      <p>
+        Food photos from <a href="https://commons.wikimedia.org/wiki/Category:Cuisine_of_Ghana" target="_blank" rel="noopener">Wikimedia Commons</a>,
+        used under their free licences. Photographers and licences:
+        <a href="https://commons.wikimedia.org/wiki/File:Jollof_rice_with_dodo.jpg" target="_blank" rel="noopener">1</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Ghanaian_Jollof_Rice.jpg" target="_blank" rel="noopener">2</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Waakye_in_Accra,_Ghana.jpg" target="_blank" rel="noopener">3</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Banku_with_grilled_tilapia_and_pepper.jpg" target="_blank" rel="noopener">4</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Fufu_and_Light_soup_with_goat_meat.jpg" target="_blank" rel="noopener">5</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Fante_Kenkey_with_Sardine_and_Shito.jpg" target="_blank" rel="noopener">6</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Tuo_Zaafi_and_ayoyo_soup.jpg" target="_blank" rel="noopener">7</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Ghanaian_Red-Red_with_Fish.jpg" target="_blank" rel="noopener">8</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Kelewele,_a_Ghanaian_snack.jpg" target="_blank" rel="noopener">9</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Jollof_rice_and_Dodo.jpg" target="_blank" rel="noopener">10</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Banku_and_Grilled_Tilapia.jpg" target="_blank" rel="noopener">11</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Kelewele_with_roasted_Groundnuts_A_Ghanaian_Delicacy.jpg" target="_blank" rel="noopener">12</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Fufu_with_tilapia,_meat_and_light_soup.jpg" target="_blank" rel="noopener">13</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Ga_kenkey_with_shito,_sardine,_eggs_and_ground_pepper_and_tomatoes.jpg" target="_blank" rel="noopener">14</a>,
+        <a href="https://commons.wikimedia.org/wiki/File:Waakye_with_spaghetti,_gari_and_egg_eaten_in_Ghana.jpg" target="_blank" rel="noopener">15</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp order button. TODO: same number as above -->
+  <a class="wa-float" href="https://wa.me/233000000000?text=Hello%20Mama%20D%20Kitchen%2C%20I%27d%20like%20to%20place%20an%20order" target="_blank" rel="noopener" aria-label="Order on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9 2 .9 2.8.9 3.8.8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5l-.7-.4Z"/></svg>
+    <span>Order</span>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
