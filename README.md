@@ -1,6 +1,6 @@
 # Mama D Kitchen — Restaurant Website
 
-A one-page Ghanaian restaurant website in plain HTML, CSS and JavaScript. No build step, and every add-on is free.
+Visit site: https://bayordenis.github.io/mama-d-kitchen/
 
 ## What's on the page
 
